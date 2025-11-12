@@ -39,7 +39,7 @@ def allowed_file(filename):
 def load_saved_model():
     global model
     if model is None:
-        model = load_model("models/high_accuracy_vgg19.h5")
+        model = load_model(os.path.join("models", "vgg19.h5"))
     return model
 
 
