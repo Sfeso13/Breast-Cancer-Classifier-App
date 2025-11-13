@@ -1,4 +1,4 @@
-# 🧠 CNN Image Classifier Web App
+# <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Balance%20Scale.png" alt="Balance Scale" width="25" height="25" /> Breast Cancer Classifier App
 
 <!-- <div align="center">
 <img src="images/app_demo.png" width="600"/>
@@ -15,7 +15,7 @@ It allows users to upload an image, processes it with a trained CNN model, and r
 
 ---
 
-## 📋 Table of Contents
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Bookmark%20Tabs.png" alt="Bookmark Tabs" width="25" height="25" /> Table of Contents
 
 - [About](#-about)
 - [Features](#-features)
