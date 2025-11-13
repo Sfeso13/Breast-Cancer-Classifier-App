@@ -19,9 +19,9 @@ It allows users to upload an image, processes it with a trained CNN model, and r
 
 - [About](#-about)
 - [Features](#-features)
+- [Project Structure](#-project-structure)
 - [Setup](#-setup)
 - [Usage](#-usage)
-- [Project Structure](#-project-structure)
 
 ---
 
@@ -48,6 +48,26 @@ It’s designed as a minimal full-stack machine learning application — a found
 - ✅ Runs locally with or without GPU (TensorFlow handles fallback)
 
 ---
+
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Card%20File%20Box.png" alt="Card File Box" width="25" height="25" /> Project Structure
+
+<details>
+  <summary>Click to expand</summary>
+
+  ```
+  cnn_app/
+  ├── app.py
+  ├── models/
+  │ ├── sequential_model_cnn.h5
+  │ └── vgg19.h5
+  ├── templates/
+  │ ├── predictions.html
+  │ └── index.html
+  ├── requirements.txt
+  └── README.md
+  ```
+
+</details>
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Gear.png" alt="Gear" width="25" height="25" /> Setup
 
@@ -92,22 +112,4 @@ http://127.0.0.1:5000
 ```
 And upload an image to get its classification
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Card%20File%20Box.png" alt="Card File Box" width="25" height="25" /> Project Structure
 
-<details>
-  <summary>Click to expand</summary>
-
-  ```
-  cnn_app/
-  ├── app.py
-  ├── models/
-  │ ├── sequential_model_cnn.h5
-  │ └── vgg19.h5
-  ├── templates/
-  │ ├── predictions.html
-  │ └── index.html
-  ├── requirements.txt
-  └── README.md
-  ```
-
-</details>
